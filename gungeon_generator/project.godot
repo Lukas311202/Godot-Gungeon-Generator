@@ -28,7 +28,7 @@ _global_script_class_icons={
 
 config/name="gungeon generator"
 run/main_scene="res://world.tscn"
-config/icon="res://icon.png"
+config/icon="res://assets/artwork/icon.png"
 
 [autoload]
 
