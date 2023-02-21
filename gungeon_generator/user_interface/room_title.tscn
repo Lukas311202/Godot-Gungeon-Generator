@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/fonts/roberto_font.tres" type="DynamicFont" id=1]
+[ext_resource path="res://user_interface/room_title.gd" type="Script" id=2]
+
+[node name="room_title" type="Node2D"]
+z_index = 10
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = -33.0
+margin_top = -17.0
+margin_right = 7.0
+margin_bottom = 44.0
+rect_rotation = -25.203
+custom_fonts/font = ExtResource( 1 )
